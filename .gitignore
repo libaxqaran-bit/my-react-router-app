@@ -1,0 +1,12 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+/my-app/
+/bashproject/
+/.agents/
+/node_modules/
+
+# React Router
+/.react-router/
+/build/
