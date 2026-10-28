@@ -2,38 +2,40 @@
 import { Link } from "react-router";
 import Navbar from "../components/Navbar";
 
+
 const projects = [
+  {
+    title: "SokoSwift Mobile App",
+    description:
+      "A mobile shopping application with products loaded from Supabase, a shopping cart, quantity controls, and checkout development in progress.",
+    technologies: ["React Native", "Expo", "Supabase"],
+    status: "In progress",
+    number: "01",
+    github: "https://github.com/libaxqaran-bit/sokoswift",
+    demo: "",
+  },
   {
     title: "Student Management System",
     description:
-      "A system for organizing student records, managing information, and keeping student data accessible.",
+      "A Django web application project focused on organizing student records and learning web development with Python.",
     technologies: ["Python", "Django", "SQLite"],
     status: "In progress",
-    number: "01",
-       github: "",
+    number: "02",
+    github: "",
     demo: "",
   },
   {
     title: "Personal Portfolio",
     description:
-      "A responsive portfolio website showcasing my skills, learning journey, and development projects.",
+      "A responsive portfolio website showcasing my skills, projects, and development journey.",
     technologies: ["React", "TypeScript", "CSS"],
     status: "In progress",
-    number: "02",
-       github: "",
-    demo: "",
-  },
-  {
-    title: "Weather App",
-    description:
-      "A weather application that retrieves weather information for a selected city using an API.",
-    technologies: ["Python", "API", "JSON"],
-    status: "Learning project",
     number: "03",
-       github: "",
+    github: "https://github.com/libaxqaran-bit/my-react-router-app",
     demo: "",
   },
 ];
+
 
 export default function Projects() {
   return (

@@ -1,14 +1,14 @@
-
 import { Link } from "react-router";
 import type { Route } from "./+types/home";
 import Navbar from "../components/Navbar";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "My Portfolio | Home" },
+    { title: "Ahmed mohamed| Developer Portfolio" },
     {
       name: "description",
-      content: "Explore my developer portfolio, skills, and projects.",
+      content:
+        "Welcome to my developer portfolio. Explore my skills, projects, and journey in web development.",
     },
   ];
 }
@@ -25,19 +25,24 @@ export default function Home() {
           </p>
 
           <h1>
-            Hi, I'm a <span>Developer in Progress.</span>
-          </h1>
+  Hi, I'm <span>AHMED MOHAMED.</span>
+  <br />
+  <span>Developer in Progress.</span>
+</h1>
 
           <p className="hero-description">
-            I'm learning to build modern websites and useful
-            applications with HTML, CSS, JavaScript, React,
-            and Python. Explore my journey and the projects
-            I'm building along the way.
+            I'm passionate about technology and building useful
+            digital experiences. I'm currently developing my skills
+            in <span>
+              HTML, CSS, JavaScript, React, and Python
+            </span>.
+            Explore my projects and follow my journey as I grow
+            into a professional developer.
           </p>
 
           <div className="hero-actions">
             <Link to="/projects" className="hero-button primary">
-              Explore My Projects
+              View My Projects
             </Link>
 
             <Link to="/contact" className="hero-button secondary">
@@ -65,19 +70,31 @@ export default function Home() {
             </div>
 
             <p className="code-muted">developer.js</p>
-            <p><span className="code-purple">const</span> developer = {"{"}</p>
-            <p className="code-indent">
-              name: <span className="code-green">"Creative"</span>,
+
+            <p>
+              <span className="code-purple">const</span> developer = {"{"}
             </p>
+
+            <p className="code-indent">
+              name: <span className="code-green">"AHMED MOHAMED"</span>,
+            </p>
+
             <p className="code-indent">
               learning: <span className="code-green">true</span>,
             </p>
+
             <p className="code-indent">
-              building: <span className="code-green">"Web Apps"</span>
+              building: <span className="code-green">"Web Apps"</span>,
             </p>
+
+            <p className="code-indent">
+              goal: <span className="code-green">"Keep Growing"</span>
+            </p>
+
             <p>{"};"}</p>
+
             <p className="code-comment">
-              // Always learning, always building.
+              // Learn. Build. Improve. Repeat.
             </p>
           </div>
 
