@@ -21,7 +21,7 @@ const projects = [
     technologies: ["Python", "Django", "SQLite"],
     status: "In progress",
     number: "02",
-    github: "",
+    github: "https://github.com/libaxqaran-bit/student-records-django",
     demo: "",
   },
   {
